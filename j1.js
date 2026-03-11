@@ -1,3 +1,3 @@
-var a ={ 'Name':'Test','age' : 22}
-console.log(a.Name)
-console.log(a)
+var ps = require('fs');
+    //ps = ps.mkdirSync('node');
+ps.writeFileSync("node/writ.txt","Hello DIV B5")
