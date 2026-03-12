@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="startClock()">Start Clock</button>
+    <button onclick="stopClock()">Stop Clock</button>
+    <p id="stop-clock"></p>
+    <script>
+        let clockInterval;
+         let h = 0
+            let m = 0
+            let s = 0
+            let ms = 0
+        function startClock() {
+            clockInterval = setInterval(fun, 1000);
+        }
+
+        function stopClock() {
+            clearInterval(clockInterval);
+        }
+
+        function fun() {
+           
+            ms += 1000
+            if (ms >= 1000) {
+                s++
+                ms = 0
+            }
+            if (s >= 60) {
+                m++
+                s = 0
+                document.getElementById("stop-clock").style.color = "red"
+            }
+            if (m >= 60) {
+                h++
+                m = 0
+                document.getElementById("stop-clock").style.color = "green"
+            }
+            document.getElementById("stop-clock").innerHTML = h + ":" + m + ":" + s;
+        }
+
+        startClock();
+    </script>
+</body>
+</html>
