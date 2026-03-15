@@ -1,49 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Clock</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+.box{
+    margin-top:60px;
+}
+
+.Main-clock{
+    font-size:60px;
+    margin-bottom:40px;
+}
+
+.world-clock{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.world-clock div{
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+    font-size:20px;
+}
+.world-clock div:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+    .alarm-section{
+    margin:30px;
+}
+
+.alarm-section input{
+    padding:8px;
+    font-size:16px;
+}
+
+.alarm-section button{
+    padding:8px 15px;
+    margin:5px;
+    font-size:16px;
+    cursor:pointer;
+    color:white;
+    background:#333;
+    border:none;
+    
+}
+
+</style>
+
 </head>
 <body>
-    <button onclick="startClock()">Start Clock</button>
-    <button onclick="stopClock()">Stop Clock</button>
-    <p id="stop-clock"></p>
-    <script>
-        let clockInterval;
-         let h = 0
-            let m = 0
-            let s = 0
-            let ms = 0
-        function startClock() {
-            clockInterval = setInterval(fun, 1000);
-        }
 
-        function stopClock() {
-            clearInterval(clockInterval);
-        }
+<div class="box">
 
-        function fun() {
-           
-            ms += 1000
-            if (ms >= 1000) {
-                s++
-                ms = 0
-            }
-            if (s >= 60) {
-                m++
-                s = 0
-                document.getElementById("stop-clock").style.color = "red"
-            }
-            if (m >= 60) {
-                h++
-                m = 0
-                document.getElementById("stop-clock").style.color = "green"
-            }
-            document.getElementById("stop-clock").innerHTML = h + ":" + m + ":" + s;
-        }
+    <div class="Main-clock"></div>
 
-        startClock();
-    </script>
+    <div class="world-clock">
+        <div class="las-vegas"></div>
+        <div class="new-york"></div>
+        <div class="london"></div>
+        <div class="paris"></div>
+        <div class="moscow"></div>
+        <div class="tokyo"></div>
+    </div>
+    <div class="alarm-section">
+
+    <h2>Set Alarm</h2>
+
+    <input type="time" id="alarmTime">
+
+    <button onclick="setAlarm()">Set Alarm</button>
+    <button onclick="stopAlarm()">Stop Alarm</button>
+
+</div>
+
+<audio id="alarmSound" src="preview.mp3"></audio>
+</div>
+
+<script>
+
+function getCityTime(timezone){
+    return new Date().toLocaleTimeString("en-US",{
+        timeZone: timezone,
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+    });
+}
+
+function updateClock(){
+
+    const now = new Date();
+
+    // Main clock (local time)
+    document.querySelector('.Main-clock').textContent =
+        now.toLocaleTimeString();
+
+    // World clocks
+    document.querySelector('.las-vegas').textContent =
+        "Las Vegas: " + getCityTime("America/Los_Angeles");
+
+    document.querySelector('.new-york').textContent =
+        "New York: " + getCityTime("America/New_York");
+
+    document.querySelector('.london').textContent =
+        "London: " + getCityTime("Europe/London");
+
+    document.querySelector('.paris').textContent =
+        "Paris: " + getCityTime("Europe/Paris");
+
+    document.querySelector('.moscow').textContent =
+        "Moscow: " + getCityTime("Europe/Moscow");
+
+    document.querySelector('.tokyo').textContent =
+        "Tokyo: " + getCityTime("Asia/Tokyo");
+
+        let currentTime =
+    now.getHours().toString().padStart(2,'0') + ":" +
+    now.getMinutes().toString().padStart(2,'0');
+
+if(alarmTime === currentTime){
+    alarmSound.play();
+}
+}
+let alarmTime = null;
+let alarmSound = document.getElementById("alarmSound");
+
+function setAlarm(){
+
+    alarmTime = document.getElementById("alarmTime").value;
+
+    alert("Alarm set for " + alarmTime);
+
+}
+function stopAlarm(){
+
+    alarmSound.pause();
+    alarmSound.currentTime = 0;
+
+}
+setInterval(updateClock,1000);
+updateClock();
+
+</script>
+
 </body>
 </html>
