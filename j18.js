@@ -1,0 +1,22 @@
+// img 
+var http = require('http');
+var fs =  require('fs');
+var Server = http.createServer(function(req,res){
+    if(req.url == '/'){
+        res.writeHead(200,{'content-type':'text/html'})
+        res.write("<h1> Home Page</h1><ul><li><a href='/'>Home</a></li><li><a href='/about'>About</a></li></ul>")
+        res.end()
+    }
+    else if(req.url == '/about'){
+        res.writeHead(200,{'content-type':'text/html'});
+        res.write("<h1>About Page</h1>")
+        res.end();
+    }
+    else{
+        res.writeHead(404,{'content-type':'text/plain'});
+        res.write("<h1>Page not find </h1>")
+        res.end("\n Plase check Url");
+    }
+})
+Server.listen(5051);
+console.log('Thank You')
