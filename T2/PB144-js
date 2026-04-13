@@ -1,0 +1,58 @@
+const express = require('express');
+
+const path = require('path');
+
+const app = express();
+app.use(express.urlencoded({ extended: true }));
+
+// Serve the HTML file with username, password, and submit button
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'login.html'));
+});
+
+// Middleware to handle POST /check
+app.post('/check', (req, res, next) => {
+    const { username, password } = req.body;
+
+    if (username === 'admin') {
+        // Jump to next middleware
+        next();
+    } else {
+        // Stay here and show warning
+        res.send(`
+            <html>
+            <head>
+                <style>
+                    body { font-family: Arial, sans-serif; background-color: #f4f7f6; text-align: center; padding-top: 50px; }
+                    .warning { color: red; font-weight: bold; }
+                </style>
+            </head>
+            <body>
+                <h2 class="warning">Warning: Invalid username!</h2>
+                <a href="/">Go back</a>
+            </body>
+            </html>
+        `);
+    }
+});
+
+// Next middleware for successful login
+app.post('/check', (req, res) => {
+    res.send(`
+        <html>
+        <head>
+            <style>
+                body { font-family: Arial, sans-serif; background-color: #f4f7f6; text-align: center; padding-top: 50px; }
+                .welcome { color: green; font-weight: bold; }
+            </style>
+        </head>
+        <body>
+            <h2 class="welcome">Welcome... admin</h2>
+        </body>
+        </html>
+    `);
+});
+
+app.listen(5100, () => {
+    console.log("Server started! Visit http://localhost:5100/");
+});
