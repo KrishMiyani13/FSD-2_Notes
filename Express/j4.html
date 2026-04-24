@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    const student =[
+    {name:'PBZ',age:25},
+    {name:'PQR',age:3},
+    {name:'XYZ',age:33}
+    ]
+    const a = student.sort((a,b) => b.age - a.age)
+    for (x of a){
+        console.log(x.name+" "+x.age)
+    }
+    document.write(a[0].name+" "+a[0].age)
+</script>
+<body>
+    
+</body>
+</html>

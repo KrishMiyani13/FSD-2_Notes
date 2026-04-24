@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #b{
+        border: 1px solid blue;
+        border-radius: 50%;
+        color: red;
+        height: 100px;
+        width: 100px;
+        border-color: red;
+        background-color: yellow;
+    }
+</style>
+<script>
+    function fun(){
+        const obj = {"Name":"XYZ","age":22,"dob":"1997-03-14"}
+        a = new Date(obj.dob)
+        document.write(a)
+    }
+</script>
+<body>
+    <button onclick="fun()" id ="b">Date</button>
+</body> 
+</html>

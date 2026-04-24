@@ -1,0 +1,34 @@
+<!-- for loop (for in/ for  of) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    const sub = {
+        "FSD" : [{
+            "Topic":"HTML","Course" : "Beginer","Content":['toys','table','form']
+        },
+            {"Topic":"HTML","Course" : "Beginer","Content":['toys','table','form']
+        }
+        ]
+    }
+    // using for  in loop
+    for (x in sub.FSD){
+        for (y in sub.FSD[x]){
+            document.write(sub.FSD[x][y]+"<br>")
+        }
+    }
+    document.write('<br><br>')
+    for (const row of sub.FSD) {
+        document.write(row.Topic + '<br>')
+        document.write(row.Course + '<br>')
+        document.write(row.Content + '<br>')
+}
+</script>
+<body>
+    
+</body>
+</html>
