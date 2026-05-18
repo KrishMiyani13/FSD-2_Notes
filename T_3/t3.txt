@@ -1,0 +1,2 @@
+Unit - 7 :-  React Fundamentals & core concepet -- 10%
+Unit - 8 :-  React Hooks & API Int -- 10%
