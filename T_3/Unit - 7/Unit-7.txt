@@ -12,3 +12,7 @@ Rect --
         |
         --> Lightweaght copy
     -> Single Page Application (SPA)
+
+JSX Rules:-
+Return Single root element
+close all tags
