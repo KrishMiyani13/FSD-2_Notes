@@ -1,0 +1,14 @@
+Rect --
+    -> FaceBook
+    -> WhatsApp
+    -> Insta
+    -> Uber
+    -> Airbnb
+    -> Khan Academy
+
+* Advantage * 
+    -> Component Bas Arch
+    -> Virtual DOM 
+        |
+        --> Lightweaght copy
+    -> Single Page Application (SPA)
