@@ -16,3 +16,5 @@ Rect --
 JSX Rules:-
 Return Single root element
 close all tags
+camle case 
+passing the exprestion
