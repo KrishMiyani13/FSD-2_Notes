@@ -7,7 +7,7 @@ function MapFiltter(){
         <div>
             <h3>Table</h3>
             {
-                arr.filter( (value => {return value !=3 }) ).map((value)=>{
+                arr.filter( (value => {return value!=3 }) ).map((value)=>{
                     return <h2>
                         5 * {value} = {value*5}
                     </h2>
