@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import MapFiltter from './MapFiltter.jsx'
+import ProductList  from './ProductList.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <MapFiltter />
+    <ProductList/>
   </StrictMode>,
 )
