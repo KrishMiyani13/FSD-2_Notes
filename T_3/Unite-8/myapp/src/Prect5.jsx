@@ -17,7 +17,7 @@ function Prect5 ( )
             setColor("Blue")
         }
         else{
-            setColor("Blue")
+            setColor("Red")
         }
     }
     function toggleShowText(){

@@ -14,7 +14,6 @@ function Prect4(){
             <div>
                 <img src={MyIamge} height={250} width={300} alt="" />
                 <button onClick={changeImage}>Change Image</button>
-                <p>{random}</p>
             </div>
         )
 } export default Prect4

@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import img1 from './assets/hero.png'
 import img2 from './assets/react.svg'
-function Use2(){
+function Prect3(){
     const [MyIamge,setImage]=useState(img1)
         function changeImage(){
             if (MyIamge == img1){
@@ -17,4 +17,4 @@ function Use2(){
                 <button onClick={changeImage}>Change Image</button>
             </div>
         )
-} export default Use2
+} export default Prect3
