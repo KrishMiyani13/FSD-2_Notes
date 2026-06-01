@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>GreenSaarthi Traffic Police Panel</title>
+
+<style>
+
+body{
+
+    font-family:Arial;
+    padding:20px;
+    background:#f2f2f2;
+
+}
+
+select,input,button{
+
+    padding:10px;
+    margin:10px;
+    font-size:16px;
+
+}
+
+.panel{
+
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:400px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="panel">
+
+<h1>Traffic Police Dashboard</h1>
+
+<label>Select Junction</label>
+
+<select id="junctionSelect">
+
+</select>
+
+<br>
+
+North Time:
+<input id="north" type="number" value="20">
+
+<br>
+
+East Time:
+<input id="east" type="number" value="40">
+
+<br>
+
+South Time:
+<input id="south" type="number" value="15">
+
+<br>
+
+West Time:
+<input id="west" type="number" value="20">
+
+<br>
+
+<button onclick="saveTimings()">
+SAVE TIMINGS
+</button>
+
+</div>
+
+<script>
+
+
+
+// ==========================
+// GET JUNCTIONS
+// ==========================
+
+const geojson =
+    JSON.parse(
+        localStorage.getItem(
+            "signalsData"
+        )
+    );
+
+
+
+const junctions =
+    new Set();
+
+
+
+geojson.features.forEach(feature => {
+
+    junctions.add(
+        feature.properties.junction_id
+    );
+
+});
+
+
+
+const select =
+    document.getElementById(
+        "junctionSelect"
+    );
+
+
+
+junctions.forEach(junction => {
+
+    let option =
+        document.createElement("option");
+
+    option.value = junction;
+
+    option.innerHTML = junction;
+
+    select.appendChild(option);
+
+});
+
+
+
+// ==========================
+// SAVE TIMINGS
+// ==========================
+
+function saveTimings(){
+
+    let timings =
+        JSON.parse(
+            localStorage.getItem(
+                "junctionTimings"
+            )
+        ) || {};
+
+
+
+    timings[
+        select.value
+    ] = {
+
+        north: parseInt(
+            document.getElementById(
+                "north"
+            ).value
+        ),
+
+        east: parseInt(
+            document.getElementById(
+                "east"
+            ).value
+        ),
+
+        south: parseInt(
+            document.getElementById(
+                "south"
+            ).value
+        ),
+
+        west: parseInt(
+            document.getElementById(
+                "west"
+            ).value
+        )
+
+    };
+
+
+
+    localStorage.setItem(
+        "junctionTimings",
+        JSON.stringify(timings)
+    );
+
+
+
+    alert("Timings Updated!");
+
+}
+
+</script>
+
+</body>
+
+</html>

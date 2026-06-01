@@ -1,0 +1,1259 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/323209119",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_1",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6313102,
+          23.1973452
+        ]
+      },
+      "id": "node/323209119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/323209207",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_1",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6314704,
+          23.1973321
+        ]
+      },
+      "id": "node/323209207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/429229020",
+        "highway": "traffic_signals",
+        "junction_id": "junction_2",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.560115,
+          23.0326816
+        ]
+      },
+      "id": "node/429229020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/440340152",
+        "highway": "traffic_signals",
+        "name": "Vishala Circle",
+        "traffic_signals": "signal",
+        "junction_id": "junction_3",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5334578,
+          22.9955248
+        ]
+      },
+      "id": "node/440340152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/440340170",
+        "highway": "traffic_signals",
+        "name": "Vishala Circle",
+        "traffic_signals": "signal",
+        "junction_id": "junction_3",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.533634,
+          22.9954682
+        ]
+      },
+      "id": "node/440340170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1779260093",
+        "highway": "traffic_signals",
+        "junction_id": "junction_4",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5490698,
+          23.0426653
+        ]
+      },
+      "id": "node/1779260093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1779260094",
+        "highway": "traffic_signals",
+        "junction_id": "junction_4",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5491598,
+          23.0426838
+        ]
+      },
+      "id": "node/1779260094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1779260095",
+        "highway": "traffic_signals",
+        "junction_id": "junction_4",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5490976,
+          23.0427263
+        ]
+      },
+      "id": "node/1779260095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1779260096",
+        "highway": "traffic_signals",
+        "junction_id": "junction_4",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5491345,
+          23.0426252
+        ]
+      },
+      "id": "node/1779260096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1782667141",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_5",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5713955,
+          23.0266433
+        ]
+      },
+      "id": "node/1782667141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784529282",
+        "highway": "traffic_signals",
+        "junction_id": "junction_6",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5610863,
+          23.0365119
+        ]
+      },
+      "id": "node/1784529282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784529286",
+        "highway": "traffic_signals",
+        "junction_id": "junction_6",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5611298,
+          23.0366445
+        ]
+      },
+      "id": "node/1784529286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784529287",
+        "highway": "traffic_signals",
+        "junction_id": "junction_6",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5611659,
+          23.0364753
+        ]
+      },
+      "id": "node/1784529287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784529293",
+        "highway": "traffic_signals",
+        "junction_id": "junction_6",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5612108,
+          23.0366127
+        ]
+      },
+      "id": "node/1784529293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784569659",
+        "highway": "traffic_signals",
+        "junction_id": "junction_2",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5600001,
+          23.0326363
+        ]
+      },
+      "id": "node/1784569659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784569660",
+        "highway": "traffic_signals",
+        "junction_id": "junction_2",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5600945,
+          23.0326252
+        ]
+      },
+      "id": "node/1784569660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1784569663",
+        "highway": "traffic_signals",
+        "junction_id": "junction_2",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5600308,
+          23.0326951
+        ]
+      },
+      "id": "node/1784569663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788554998",
+        "highway": "traffic_signals",
+        "junction_id": "junction_7",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5559952,
+          23.0223911
+        ]
+      },
+      "id": "node/1788554998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788555002",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "traffic_signals:sound": "yes",
+        "junction_id": "junction_7",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5562383,
+          23.0222915
+        ]
+      },
+      "id": "node/1788555002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1788607237",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "traffic_signals",
+        "junction_id": "junction_8",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5574355,
+          23.0195352
+        ]
+      },
+      "id": "node/1788607237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240597198",
+        "crossing": "traffic_signals",
+        "highway": "traffic_signals",
+        "junction_id": "junction_8",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5574389,
+          23.0198156
+        ]
+      },
+      "id": "node/3240597198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240597200",
+        "highway": "traffic_signals",
+        "junction_id": "junction_9",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5563766,
+          23.0226084
+        ]
+      },
+      "id": "node/3240597200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240597201",
+        "highway": "traffic_signals",
+        "junction_id": "junction_7",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5559827,
+          23.0227054
+        ]
+      },
+      "id": "node/3240597201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240602009",
+        "highway": "traffic_signals",
+        "junction_id": "junction_10",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5629563,
+          23.0110402
+        ]
+      },
+      "id": "node/3240602009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240602010",
+        "highway": "traffic_signals",
+        "junction_id": "junction_10",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5631435,
+          23.0110618
+        ]
+      },
+      "id": "node/3240602010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240602011",
+        "highway": "traffic_signals",
+        "junction_id": "junction_10",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5631294,
+          23.0112559
+        ]
+      },
+      "id": "node/3240602011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240602012",
+        "highway": "traffic_signals",
+        "junction_id": "junction_10",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5629068,
+          23.0112667
+        ]
+      },
+      "id": "node/3240602012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3240602013",
+        "highway": "traffic_signals",
+        "junction_id": "junction_9",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.556187,
+          23.0226961
+        ]
+      },
+      "id": "node/3240602013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3242190325",
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "traffic_signals",
+        "junction_id": "junction_8",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5572845,
+          23.0196582
+        ]
+      },
+      "id": "node/3242190325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3245983786",
+        "highway": "traffic_signals",
+        "junction_id": "junction_11",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5650202,
+          23.0141608
+        ]
+      },
+      "id": "node/3245983786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3245983787",
+        "camera:mount": "pole",
+        "camera:type": "fixed",
+        "highway": "traffic_signals",
+        "man_made": "surveillance",
+        "name": "Cam_04",
+        "surveillance": "outdoor",
+        "surveillance:type": "camera",
+        "surveillance:zone": "traffic",
+        "junction_id": "junction_12",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5641452,
+          23.0147748
+        ]
+      },
+      "id": "node/3245983787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3245983788",
+        "highway": "traffic_signals",
+        "junction_id": "junction_11",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5650728,
+          23.0142161
+        ]
+      },
+      "id": "node/3245983788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3245983789",
+        "highway": "traffic_signals",
+        "junction_id": "junction_11",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5650015,
+          23.0142506
+        ]
+      },
+      "id": "node/3245983789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832152248",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_1",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6314654,
+          23.1971983
+        ]
+      },
+      "id": "node/3832152248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832152249",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_1",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6313075,
+          23.1972154
+        ]
+      },
+      "id": "node/3832152249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287518049",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_13",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5304736,
+          23.0145846
+        ]
+      },
+      "id": "node/5287518049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287518050",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_13",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5304539,
+          23.0146783
+        ]
+      },
+      "id": "node/5287518050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287518051",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_13",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5306804,
+          23.014702
+        ]
+      },
+      "id": "node/5287518051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287518052",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_13",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5307019,
+          23.0146147
+        ]
+      },
+      "id": "node/5287518052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287518053",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_13",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5305336,
+          23.0145294
+        ]
+      },
+      "id": "node/5287518053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287518054",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_13",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.530624,
+          23.0145428
+        ]
+      },
+      "id": "node/5287518054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287518055",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_13",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5305982,
+          23.014753
+        ]
+      },
+      "id": "node/5287518055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5287518056",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_13",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5305101,
+          23.0147415
+        ]
+      },
+      "id": "node/5287518056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7159104517",
+        "highway": "traffic_signals",
+        "name": "Vishala Circle",
+        "junction_id": "junction_3",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5335793,
+          22.9955534
+        ]
+      },
+      "id": "node/7159104517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7159104518",
+        "highway": "traffic_signals",
+        "name": "Vishala Circle",
+        "junction_id": "junction_3",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5335129,
+          22.9954377
+        ]
+      },
+      "id": "node/7159104518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346717",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_14",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5299821,
+          23.0192865
+        ]
+      },
+      "id": "node/9002346717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346718",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_14",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5299885,
+          23.0192419
+        ]
+      },
+      "id": "node/9002346718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346719",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_14",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5300929,
+          23.0191969
+        ]
+      },
+      "id": "node/9002346719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346720",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_14",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5301937,
+          23.0191881
+        ]
+      },
+      "id": "node/9002346720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346721",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_14",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5301987,
+          23.0193461
+        ]
+      },
+      "id": "node/9002346721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346722",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_14",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5302636,
+          23.0192245
+        ]
+      },
+      "id": "node/9002346722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346723",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_14",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.530097,
+          23.019352
+        ]
+      },
+      "id": "node/9002346723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346724",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_14",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5302702,
+          23.0192724
+        ]
+      },
+      "id": "node/9002346724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346725",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_15",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5299531,
+          23.0244694
+        ]
+      },
+      "id": "node/9002346725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346726",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_15",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5299274,
+          23.0243151
+        ]
+      },
+      "id": "node/9002346726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346727",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_15",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5301261,
+          23.0245221
+        ]
+      },
+      "id": "node/9002346727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346728",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_16",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5304244,
+          23.0245016
+        ]
+      },
+      "id": "node/9002346728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346729",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_17",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5301066,
+          23.0241533
+        ]
+      },
+      "id": "node/9002346729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002346730",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_17",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5304172,
+          23.0241448
+        ]
+      },
+      "id": "node/9002346730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936664621",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_18",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.571828,
+          23.0308751
+        ]
+      },
+      "id": "node/11936664621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936675598",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_19",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5714783,
+          23.0339976
+        ]
+      },
+      "id": "node/11936675598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936675903",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_18",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5718062,
+          23.0305848
+        ]
+      },
+      "id": "node/11936675903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936675950",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_20",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5724444,
+          23.028793
+        ]
+      },
+      "id": "node/11936675950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936675951",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_20",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.572476,
+          23.028532
+        ]
+      },
+      "id": "node/11936675951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12799620984",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_5",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5711408,
+          23.0265182
+        ]
+      },
+      "id": "node/12799620984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12799620985",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "junction_id": "junction_5",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5712479,
+          23.0268194
+        ]
+      },
+      "id": "node/12799620985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12912615639",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "backward",
+        "junction_id": "junction_21",
+        "direction": "north"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6101555,
+          23.0526414
+        ]
+      },
+      "id": "node/12912615639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12912615659",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward",
+        "junction_id": "junction_21",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6103859,
+          23.0524965
+        ]
+      },
+      "id": "node/12912615659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12912615660",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward",
+        "junction_id": "junction_21",
+        "direction": "south"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6101933,
+          23.0524229
+        ]
+      },
+      "id": "node/12912615660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12912615661",
+        "highway": "traffic_signals",
+        "traffic_signals": "signal",
+        "traffic_signals:direction": "forward",
+        "junction_id": "junction_21",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.610318,
+          23.0527032
+        ]
+      },
+      "id": "node/12912615661"
+    }
+  ]
+}
