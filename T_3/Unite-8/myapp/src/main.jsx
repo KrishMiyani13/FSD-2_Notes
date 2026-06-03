@@ -11,8 +11,12 @@ import './index.css'
 // import Todo from './Prect7.jsx'
 // import MyForm  from './React_Form/Form-Prect1.jsx'
 // import UR from './React_Form/Form-Prect5.jsx'
-import Main from './React_Form/Form-Prect6.jsx'
-import comp from './React_Form/comp.jsx'
+import UE1 from './useEffect/UE1.jsx'
+import UE2 from './useEffect/UE2.jsx'
+import CountdownTimer from './useEffect/UE3.jsx'
+import RandonMimany from './AXIOS/axios.jsx'
+// import Main from './React_Form/Form-Prect6.jsx'
+// import comp from './React_Form/comp.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Use2 />
@@ -24,7 +28,11 @@ createRoot(document.getElementById('root')).render(
     <Todo/>
     <MyForm/> */}
     {/* <UR/> */}
-    <Main/>
+    {/* <Main/> */}
     {/* <comp/> */}
+    {/* <UE1/> */}
+    {/* <UE2/> */}
+    {/* <CountdownTimer/ */}
+    <RandonMimany/>
   </StrictMode>
 )
