@@ -15,6 +15,7 @@ import UE1 from './useEffect/UE1.jsx'
 import UE2 from './useEffect/UE2.jsx'
 import CountdownTimer from './useEffect/UE3.jsx'
 import RandonMimany from './AXIOS/axios.jsx'
+import Comp1 from './pdf_practice/Comp1.jsx'
 // import Main from './React_Form/Form-Prect6.jsx'
 // import comp from './React_Form/comp.jsx'
 createRoot(document.getElementById('root')).render(
@@ -33,6 +34,7 @@ createRoot(document.getElementById('root')).render(
     {/* <UE1/> */}
     {/* <UE2/> */}
     {/* <CountdownTimer/ */}
-    <RandonMimany/>
+    {/* <RandonMimany/> */}
+    <Comp1/>
   </StrictMode>
 )

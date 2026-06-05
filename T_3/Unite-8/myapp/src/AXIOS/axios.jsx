@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-
 const RandonMimany = () => {
   const [myImg, setMyImg] = useState("");
-
   useEffect(() => {
     const interval = setInterval(() => {
       axios
@@ -14,14 +12,11 @@ const RandonMimany = () => {
         })
         .catch((err) => console.log(err));
     }, 500);
-
   }, []);
-
   return (
     <div>
       <img src={myImg} alt="random dog" />
     </div>
   );
 };
-
 export default RandonMimany;

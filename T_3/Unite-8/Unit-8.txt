@@ -1,0 +1,9 @@
+Hooks -------------->
+                    |->  useState
+                    |->  useReclucer
+                    |->  useEffect
+                    |->  useContext
+Axios -------------->
+                    |-> 
+                    |->
+                    |->
