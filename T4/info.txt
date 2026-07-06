@@ -1,5 +1,10 @@
+npm install mongoose
+
 Step 1 : Include Mongoose in Project & connect to MDB
 Step 2 : Define schema : -> Structure of collection  ({ Data Type})
                          -> Define rules ({schema validat})
 Step 3 : Create the Model -> Apply schema to all document
 Step 4 : Create & schema Data -> Async function 
+
+
+
