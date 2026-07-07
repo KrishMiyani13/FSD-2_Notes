@@ -1,0 +1,16 @@
+const movies=[ 
+{title:"3 Idiots", director:"Rajkumar Hirani", genre:"Comedy", 
+rating:9.2, releaseYear:2009, language:"Hindi"}, 
+{title:"KGF Chapter 2", director:"Prashanth Neel", genre:"Action", 
+rating:8.8, releaseYear:2022, language:"Kannada"}, 
+{title:"Dangal", director:"Nitesh Tiwari", genre:"Drama", rating:8.9, 
+releaseYear:2016, language:"Hindi"}, 
+{title:"Baahubali", director:"S. S. Rajamouli", genre:"Action", 
+rating:8.7, releaseYear:2015, language:"Telugu"}, 
+{title:"Jawan", director:"Atlee", genre:"Action", rating:7.8, 
+releaseYear:2023, language:"Hindi"}, 
+{title:"Drishyam", director:"Nishikant Kamat", genre:"Thriller", 
+rating:8.4, releaseYear:2015, language:"Hindi"}, 
+{title:"Pushpa", director:"Sukumar", genre:"Action", rating:8.1, 
+releaseYear:2021, language:"Telugu"} 
+]; 

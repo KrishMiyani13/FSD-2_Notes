@@ -1,5 +1,18 @@
 {
   "dependencies": {
-    "mongoose": "^9.7.3"
-  }
+    "body-parser": "^2.3.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.4"
+  },
+  "name": "t4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Example1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
 }
