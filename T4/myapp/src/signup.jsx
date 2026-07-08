@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 import axios from "axios";
-
 function Signup() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-
   const handleSignup = async (e) => {
     e.preventDefault();
-
     // Basic validation
     if (!username || !email || !password) {
       setError("All fields are required");
@@ -24,9 +21,7 @@ function Signup() {
       setError("Password must be at least 6 characters");
       return;
     }
-
     setError(""); // clear errors
-
     try {
       await axios.post("http://localhost:5000/signup", {
         username,
@@ -42,7 +37,6 @@ function Signup() {
       setError("Signup failed. Try again.");
     }
   };
-
   return (
     <div>
       <h1>Sign Up</h1>
@@ -71,5 +65,4 @@ function Signup() {
     </div>
   );
 }
-
 export default Signup;
